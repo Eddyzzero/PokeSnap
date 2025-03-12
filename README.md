@@ -1,59 +1,122 @@
-# PokeSnap
+# PokeSnap 🎮
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.5.
+A modern Pokédex application built with Angular that brings your favorite Pokémon to life! ✨
 
-## Development server
+## Description
 
-To start a local development server, run:
+PokeAPI est une API RESTful gratuite et facile à utiliser qui te permet de récupérer des informations sur :
 
-```bash
-ng serve
-```
+- **Les Pokémon** (nom, statistiques, types, évolutions, etc.) 🚀
+- **Leurs attaques** et autres caractéristiques 📊
+- **L'univers complet** de Pokémon avec une documentation claire pour t'aider à démarrer 📖
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+C'est idéal pour les développeurs qui apprennent le code et veulent intégrer des données dynamiques dans leurs projets.
 
-## Code scaffolding
+## 🚀 Getting Started
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### Prerequisites 📋
 
-```bash
-ng generate component component-name
-```
+- Node.js (v18 or later) 🟢
+- npm (comes with Node.js) 📦
+- Angular CLI version 19.1.5 ⚡
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### Installation 💿
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+1. Clone the repository:
 
 ```bash
-ng build
+git clone https://github.com/yourusername/pokeSnap.git
+cd pokeSnap
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+2. Install dependencies:
 
 ```bash
-ng test
+npm install
 ```
 
-## Running end-to-end tests
+## 🛠️ Development
 
-For end-to-end (e2e) testing, run:
+Start the development server:
 
 ```bash
-ng e2e
+npm start
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+Visit `http://localhost:4200` in your browser. Auto-reload is enabled! 🔄
 
-## Additional Resources
+## 🏗️ Building for Production
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Create a production build:
+
+```bash
+npm run build
+```
+
+Build artifacts will be stored in `dist/poke-snap` 📦
+
+## 🌐 Server-Side Rendering (SSR)
+
+Run the SSR version:
+
+```bash
+npm run serve:ssr:pokeSnap
+```
+
+Access the SSR server at `http://localhost:4000` 🚀
+
+## 📁 Project Structure
+
+- 🛠️ Working on it
+
+<!-- ```
+src/
+  ├── app/                # 🏠 Application components
+  │   ├── components/    # 🧩 Reusable components
+  │   ├── services/      # ⚙️ Services
+  │   ├── models/        # 📝 TypeScript interfaces
+  │   └── pages/         # 📄 Page components
+  ├── assets/            # 🖼️ Static assets
+  └── styles/            # 🎨 Global styles
+``` -->
+
+## 🧪 Testing
+
+Run unit tests:
+
+```bash
+npm test
+```
+
+Run e2e tests:
+
+```bash
+npm run e2e
+```
+
+## ✨ Features
+
+- 🛠️ Working on it
+
+## 🤝 Contributing
+
+1. Fork the repository 🍴
+2. Create your feature branch: `git checkout -b feature/amazing-feature`
+3. Commit your changes: `git commit -m 'Add some amazing feature'`
+4. Push to the branch: `git push origin feature/amazing-feature`
+5. Open a Pull Request 🎉
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## 👏 Acknowledgments
+
+- PokéAPI for providing Pokémon data
+- Angular team for the amazing framework
+- All contributors who help improve this project
+
+```
+
+Need any sections expanded or additional documentation? Let me know! 📝
+```
